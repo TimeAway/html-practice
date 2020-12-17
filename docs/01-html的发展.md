@@ -71,6 +71,9 @@ Apple，Mozilla，和 Opera 允许 W3C 在 W3C 版权下发布该标准， 只�
 
 从此 WHATWG 一直在（与其他组织一同）开发该标准， W3C 则复制 WHATWG 的修复工作到他们所在的文档分支（也有其他的一些改动）。
 
+2019年，WHATWG 和 W3C 共同签署了一项协议，将在未来的 HTML
+的一个版本上进行合作，即 [HTML Standard](https://whatwg-cn.github.io/html/) 。
+
 ## HTML 名词
 
 - **网页**：由各种标记组成的一个页面就叫网页。
