@@ -4,7 +4,7 @@ HTML 学习与实践项目
 
 ## 学习内容
 
-- HTML 元素，包括 base、head、meta、link、script 等。
+- HTML 元数据，包括 base、head、meta、link、script 等。
 
 - HTML 标签，包括废弃及新增的标签。
 
