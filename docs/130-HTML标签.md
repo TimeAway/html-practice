@@ -348,7 +348,6 @@ area 的超链接, 值为一个 URL.
 
 [source 媒体资源](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/source)
 
-
 ## 11. `object` 标签
 
 表示引入一个外部资源，这个资源可能是一张图片，一个嵌入的浏览上下文，亦或是一个插件所使用的资源。
@@ -377,15 +376,14 @@ area 的超链接, 值为一个 URL.
 
 指向一个 `<map>` 元素的 hash-name；格式为 ‘#’ 加 map 元素 name 元素的值。
 
-
 ```html
-<object type="application/pdf"
-    data="/media/examples/In-CC0.pdf"
-    width="250"
-    height="200">
-</object>
+<object
+  type="application/pdf"
+  data="/media/examples/In-CC0.pdf"
+  width="250"
+  height="200"
+></object>
 ```
-
 
 ## 12. `params` 标签
 
@@ -397,7 +395,7 @@ area 的超链接, 值为一个 URL.
 
 ### 12.2 `type` 属性
 
-仅当 `valuetype` 设置为“ref”时才使用。根据URI中给定的数据确定MIME类型。
+仅当 `valuetype` 设置为“ref”时才使用。根据 URI 中给定的数据确定 MIME 类型。
 
 ### 12.3 `value` 属性
 
@@ -409,6 +407,6 @@ area 的超链接, 值为一个 URL.
 
 - data: 默认值。该值作为字符串变量传递给对象实例。
 
-- ref: 该值是存储运行时变量的资源的URI。
+- ref: 该值是存储运行时变量的资源的 URI。
 
-- object: 同一页面（document）中另一个 `<object>` 的ID。
+- object: 同一页面（document）中另一个 `<object>` 的 ID。
