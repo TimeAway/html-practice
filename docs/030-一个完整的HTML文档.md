@@ -25,7 +25,7 @@
 <!DOCTYPE html>
 ```
 
-### 1.3 HTML 4.01 Strict
+### 1.2 HTML 4.01 Strict
 
 该 DTD 包含所有 HTML 元素和属性，但不包括展示性的和弃用的元素（比如 font）。不允许框架集（Framesets）。
 
@@ -33,7 +33,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
-### 1.4 HTML 4.01 Transitional
+### 1.3 HTML 4.01 Transitional
 
 该 DTD 包含所有 HTML 元素和属性，但不包括展示性的和弃用的元素（比如 font）。不允许框架集（Framesets）。
 
@@ -42,7 +42,7 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-### 1.5 HTML 4.01 Frameset
+### 1.4 HTML 4.01 Frameset
 
 该 DTD 等同于 HTML 4.01 Transitional，但允许框架集内容。
 
