@@ -63,5 +63,5 @@ UTF-16 主要用于操作系统和环境，如 Microsoft Windows、Java 和 .NET
 如果需要使用其他字符集编码，需要指定如下代码，比如：
 
 ```html
-<meta charset="ISO-8859-1">
+<meta charset="ISO-8859-1" />
 ```
