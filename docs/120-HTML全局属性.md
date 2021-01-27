@@ -1,6 +1,6 @@
 # HTML 全局属性
 
-全局属性是所有HTML元素共有的属性; 它们可以用于所有元素，部分属性可能对某些元素不起作用。
+全局属性是所有 HTML 元素共有的属性; 它们可以用于所有元素，部分属性可能对某些元素不起作用。
 
 ## 1. accesskey 属性(不推荐使用)
 
@@ -12,9 +12,9 @@
 <button accesskey="B" onclick="onClick()">点击</button>
 
 <script>
-  const onClick = function() {
-    console.log('hello');
-  }
+  const onClick = function () {
+    console.log("hello");
+  };
 </script>
 ```
 
@@ -67,7 +67,7 @@ Control + key
 
 ## 3. class 属性
 
-一个以空格分隔的元素的类名（classes ）列表，允许 CSS 和 Javascript 通过类选择器 (class selectors) 或DOM方法。
+一个以空格分隔的元素的类名（classes ）列表，允许 CSS 和 Javascript 通过类选择器 (class selectors) 或 DOM 方法。
 
 class 的命名没有要求，但最好使用可以表达元素语义目的的名称。
 
@@ -79,14 +79,14 @@ class 的命名没有要求，但最好使用可以表达元素语义目的的�
 
 ```css
 /* css 可以修改编辑处光标的颜色 */
-[contenteditable='true'] {
-    caret-color: red;
+[contenteditable="true"] {
+  caret-color: red;
 }
 ```
 
 ## 5. contextmenu 属性（已过时）
 
-## 6. data-* 属性
+## 6. data-\* 属性
 
 可在 HTML 元素中存储额外的信息，并且 JavaScript 和 CSS 均可访问。
 
@@ -94,29 +94,30 @@ class 的命名没有要求，但最好使用可以表达元素语义目的的�
 
 ```html
 <article
-        id="electriccars"
-        data-columns="3"
-        data-index-number="12314"
-        data-parent="cars">
-    ...
+  id="electriccars"
+  data-columns="3"
+  data-index-number="12314"
+  data-parent="cars"
+>
+  ...
 </article>
 
 <style>
-    article[data-columns='3'] {
-        width: 400px;
-    }
-    
-    article[data-columns='4'] {
-        width: 600px;
-    }
+  article[data-columns="3"] {
+    width: 400px;
+  }
+
+  article[data-columns="4"] {
+    width: 600px;
+  }
 </style>
 
 <script>
-    const article = document.querySelector('#electriccars');
+  const article = document.querySelector("#electriccars");
 
-    article.dataset.columns // "3"
-    article.dataset.indexNumber // "12314"
-    article.dataset.parent // "cars"
+  article.dataset.columns; // "3"
+  article.dataset.indexNumber; // "12314"
+  article.dataset.parent; // "cars"
 </script>
 ```
 
@@ -142,7 +143,7 @@ class 的命名没有要求，但最好使用可以表达元素语义目的的�
 
 - `move`，它表明被拖放元素会移动到新的位置。
 
-- `link`，它会创建被拖放数据的链接。 
+- `link`，它会创建被拖放数据的链接。
 
 ## 10. hidden 属性
 
@@ -166,8 +167,8 @@ class 的命名没有要求，但最好使用可以表达元素语义目的的�
 
 ## 13. part 属性
 
-包含一个以元素中part属性名称组成的列表，该列表以空格分隔。
-通过Part 的名称，可以使用CSS伪元素“::part”来选择shadow 树中指定元素并设置其样式 。
+包含一个以元素中 part 属性名称组成的列表，该列表以空格分隔。
+通过 Part 的名称，可以使用 CSS 伪元素“::part”来选择 shadow 树中指定元素并设置其样式 。
 
 ## 14. slot 属性
 
@@ -202,8 +203,10 @@ CSS 样式，建议在单独文件中定义样式。
 title 属性可以包含多行。每个插入的 U+000A LINE FEED (LF) 代表一个换行。
 
 ```html
-<p>Newlines in title should be taken into account,like this <abbr title="This is a
-multiline title">example</abbr>.</p>
+<p>
+  Newlines in title should be taken into account,like this
+  <abbr title="This is a multiline title">example</abbr>.
+</p>
 ```
 
 ## 19. translate 属性
